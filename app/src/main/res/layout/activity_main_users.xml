@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityUsers"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_bg"
+    android:padding="20dp">
+
+
+
+    <Button
+        android:id="@+id/btnUserAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_btn"
+        android:text="@string/add_a_program"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:padding="10sp"
+        android:onClick="btn_userToAddForm"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:id="@+id/btnJson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_btn"
+        android:text="@string/food_tips"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:padding="10sp"
+        android:onClick="btn_userToJsonForm"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:id="@+id/btnDisplayPrograms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_btn"
+        android:text="@string/display_programs"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:padding="10sp"
+        android:onClick="btn_userDisplayPrograms"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:id="@+id/btnToMaps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_btn"
+        android:text="@string/show_me_a_gym"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:padding="10sp"
+        android:onClick="btn_userToMap"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnUserLogOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_btn"
+        android:text="@string/logout"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:padding="10sp"
+        android:onClick="btn_Logout"
+        android:layout_marginTop="100sp"/>
+
+
+</LinearLayout>

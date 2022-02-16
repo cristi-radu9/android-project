@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">AndoridProject</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="login_preference">com.example.andoridproject_login_preference</string>
+    <string name="login_status_preference">com.example.andoridproject_login_status_preference</string>
+    <string name="exercises">Exercises</string>
+    <string name="difficulty">Difficulty</string>
+    <string name="purpose">Purpose</string>
+    <string name="meals">Meals</string>
+    <string name="rate_the_program">Rate the program</string>
+    <string name="submit">Submit</string>
+    <string name="view_accounts">View accounts</string>
+    <string name="delete_accounts">Delete Accounts</string>
+    <string name="update_accounts">Update Accounts</string>
+    <string name="add_a_program">Add a program</string>
+    <string name="food_tips">Food tips</string>
+    <string name="logout">Logout</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="register">Register</string>
+    <string name="id">ID</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="update">Update</string>
+    <string name="display_programs">Display Programs</string>
+    <string name="show_me_a_gym">Show me a gym</string>
+    <string-array name="scope">
+        <item>gain</item>
+        <item>lose</item>
+    </string-array>
+</resources>
